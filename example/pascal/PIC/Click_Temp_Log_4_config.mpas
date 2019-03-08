@@ -1,0 +1,8 @@
+unit Click_Temp_Log_4_config;
+
+uses Click_Temp_Log_4_types;
+
+const
+    _TEMPLOG4_I2C_CFG : array[1] of uint32_t = (100000); 
+    
+end.
